@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="none">
+  <defs>
+    <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2563eb" />
+      <stop offset="50%" stop-color="#3b82f6" />
+      <stop offset="100%" stop-color="#1d4ed8" />
+    </linearGradient>
+    <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38bdf8" />
+      <stop offset="100%" stop-color="#60a5fa" />
+    </linearGradient>
+  </defs>
+  <!-- Background squircle -->
+  <rect width="512" height="512" rx="128" fill="url(#grad1)" />
+  
+  <!-- Subtle inner glow -->
+  <rect x="16" y="16" width="480" height="480" rx="112" stroke="rgba(255,255,255,0.15)" stroke-width="6" fill="none" />
+  
+  <!-- Academic Cap / Mortarboard -->
+  <path d="M256 120 L400 196 L256 272 L112 196 Z" fill="#ffffff" />
+  <path d="M168 226 V312 C168 344 256 376 256 376 C256 376 344 344 344 312 V226" stroke="#ffffff" stroke-width="22" stroke-linecap="round" stroke-linejoin="round" fill="none" />
+  
+  <!-- Tassel -->
+  <path d="M368 214 V310" stroke="url(#accent)" stroke-width="14" stroke-linecap="round" />
+  <circle cx="368" cy="320" r="14" fill="#38bdf8" />
+
+  <!-- Open Book under cap -->
+  <path d="M160 380 Q256 350 256 385 Q256 350 352 380 V410 Q256 380 256 415 Q256 380 160 410 Z" fill="rgba(255,255,255,0.92)" />
+
+  <!-- AI Sparks -->
+  <path d="M390 130 Q405 145 420 145 Q405 145 390 160 Q390 145 375 145 Q390 145 390 130 Z" fill="#fef08a" />
+  <path d="M120 140 Q130 152 142 152 Q130 152 120 164 Q120 152 108 152 Q120 152 120 140 Z" fill="#fef08a" />
+</svg>
